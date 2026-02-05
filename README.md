@@ -1,9 +1,7 @@
-# Azure VM Nginx Deployment & NSG Troubleshooting
 
-## Goal
-Deploy an Ubuntu VM in Azure, install Nginx using Custom Script, and make it reachable via the public IP.
+## Problem
+Even though Nginx was running and listening on 0.0.0.0:80, the website was not reachable via the public IP.
 
-## What I did
-- Created Ubuntu 24.04 VM
-- Used Azure Custom Script Extension to install Nginx from a GitHub-hosted script
-- Verified Nginx was running on port 80 using:
+## Investigation steps
+1. Verified Nginx service status
+2. Tested connectivity from inside the VM:
