@@ -1,3 +1,9 @@
+# Azure Nginx NSG Troubleshooting
+
+**Author:** Noah0916  
+**Date:** <dag van oplevering>
+
+This project demonstrates troubleshooting of an Azure VM with Nginx and network security group (NSG) configuration.
 
 ## Problem
 Even though Nginx was running and listening on 0.0.0.0:80, the website was not reachable via the public IP.
